@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <!-- Bootstrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+<!-- Navbar -->
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">  <img src="https://raw.githubusercontent.com/kjyancy/Lublu_Bakery_Website/7b6d4e0c35b2d4a28bc377f7fe563a0fbf4da835/images/lublu%20logo.svg" alt="Lublu Bakery Logo" width="50" height="50"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- secondary nav -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Explore Our Menu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#pastries">Pastries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sourdough">Sourdough</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cookies">Cookies and Scones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#desserts">Desserts</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#drinks" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drinks
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Coffee</a></li>
+            <li><a class="dropdown-item" href="#">Matcha</a></li>
+            <li><a class="dropdown-item" href="#">Juices and Lemonades</a></li>
+            <li><a class="dropdown-item" href="#">Other</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+<!-- Hero -->
+
+    <h1>Our Menu</h1>
+    <p>Explore our extensive menu, complete with all of our available options and flavors.</p>
+    <p>Ready to order?</p>
+    <a href="https://www.doordash.com/store/lublu-bakery-visalia-52318921/125216968/?srsltid=AYCX9vLJ8zUqaTKXfwKxEIwTwzgc3pfhWzXzo1zzV_KCQog7gXTek99n" class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer">Order on Doordash</a>
+    
+<!-- PASTRY SECTION -->
+   
+   <h2 id="pastries">Pastries</h2>
+  <div class="card card-body">
+<ul class="list-group list-group-flush">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Pain au Chocolat</div>
+      <small class="text-muted">Light croissant-like pastry with a chocolate baton filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Raspberry Danish</div>
+      <small class="text-muted">Flaky danish topped with raspberries.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Mushroom-Parmesan Danish</div>
+      <small class="text-muted">Savory danish with mushroom and parmesan cheese filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Tomato-Pesto Danish</div>
+      <small class="text-muted">Savory danish with tomato and pesto filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Butter Croissant</div>
+      <small class="text-muted">Buttery, flaky croissant.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Lemon Cruffin</div>
+      <small class="text-muted">Lemon-flavored croissant muffin.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Spiced Apple Danish</div>
+      <small class="text-muted">Flaky danish with apple spice filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Banana Bread</div>
+      <small class="text-muted">Fresh-baked banana bread slice.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$6.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Pumpkin Cheesecake Danish</div>
+      <small class="text-muted">Seasonal danish filled with a pumpkin cheesecake filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Pumpkin Spice Roll</div>
+      <small class="text-muted">Seasonal pumpkin spice-flavored cinnamon roll.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Raspberry Almond Croissant</div>
+      <small class="text-muted">Flaky croissant baked with raspberry and almond inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$9.00</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Spinach-Artichoke Danish</div>
+      <small class="text-muted">Savory danish with spinach and artichoke filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Peach Danish</div>
+      <small class="text-muted">Flaky danish with peach filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Blueberry Danish</div>
+      <small class="text-muted">Flaky danish with blueberry filling.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+   <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Cinnamon Pull-Apart</div>
+      <small class="text-muted">Fresh-baked pull-apart cinnamon roll.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$8.50</span>
+  </li>
+</ul>
+  </div>
+    
+<!-- SOURDOUGH -->
+   
+   <h2 id="sourdough">Sourdough</h2>
+  <div class="card card-body">
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Olive and Herb Loaf</div>
+      <small class="text-muted">Sourdough loaf baked with olive and herb inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$14.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Pepper Jack Loaf</div>
+      <small class="text-muted">Sourdough loaf baked with pepper jack cheese inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$14.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Rosemary Olive-Oil Loaf</div>
+      <small class="text-muted">Sourdough loaf baked with rosemary and olive-oil inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$14.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Jalapeno Cheddar Loaf</div>
+      <small class="text-muted">Sourdough loaf baked with jalapeno and cheddar cheese inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$14.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Country Loaf</div>
+      <small class="text-muted">Classic Sourdough Loaf.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$12.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Seeded Loaf</div>
+      <small class="text-muted">Classic Seeded Sourdough Loaf.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$12.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Sandwich Loaf</div>
+      <small class="text-muted">Classic Sourdough Loaf baked and sliced into sandwich slices.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$12.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Garlic Parmesan Bagel</div>
+      <small class="text-muted">Sourdough bagel baked with garlic and parmesan cheese inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.00</span>
+  </li>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Jalapeno Cheddar Bagel</div>
+      <small class="text-muted">Sourdough bagel baked with jalapeno and cheddar cheese inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.00</span>
+    </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Plain Bagel</div>
+      <small class="text-muted">Classic Sourdough bagel.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.00</span>
+    </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Everything Bagel</div>
+      <small class="text-muted">Classic Sourdough bagel with everything-bagel seasoning.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.00</span>
+    </li>
+   </ul>
+  </div>
+
+    <!-- COOKIES AND SCONES -->
+    
+<h2 id="cookies">Cookies and Scones</h2>
+  <div class="card card-body">
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Pistachio Cookie</div>
+      <small class="text-muted"> Single fresh-baked cookie with pistachio inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Milk Chocolate Walnut Cookie</div>
+      <small class="text-muted"> Single fresh-baked cookie with milk chocolate and walnut inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Peanut Butter Chocolate Cookie</div>
+      <small class="text-muted"> Single fresh-baked cookie with peanut butter and chocolate inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Lemon Cookie</div>
+      <small class="text-muted"> Single fresh-baked cookie with lemon inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Bacon and Chive Scone</div>
+      <small class="text-muted"> Savory fresh-baked scone with bacon and chive inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+   </ul>
+  </div>
+    
+<!-- DESSERTS -->
+
+<h2 id="desserts">Desserts</h2>
+  <div class="card card-body">
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Chocolate Cherry Tiramisu</div>
+      <small class="text-muted"> Cup of freshly made tiramisu infused with chocolate and cherry flavors and inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$6.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Chocolate Cherry Tiramisu</div>
+      <small class="text-muted"> Cup of freshly made tiramisu infused with pistachio and passion fruit flavors and inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$6.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Strawberry Tiramisu</div>
+      <small class="text-muted"> Cup of freshly made tiramisu infused with strawberry inclusions.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$6.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Macaron</div>
+      <small class="text-muted"> Single freshly-made macaron treat. See ordering site for flavor availability.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$4.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Macaron Box</div>
+      <small class="text-muted"> Set of 10 freshly-made macaron treats. See ordering site for flavor availability.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$36.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Ice Cream Sandwich</div>
+      <small class="text-muted"> Single freshly made ice cream sandwich. See ordering site for flavor availability.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$11.00</span>
+  </li>
+   </ul>
+  </div>
+
+    
+<!-- DRINKS -->
+    
+<h2 id="drinks">Drinks</h2>
+  <div class="card card-body">
+    
+     <h3>Coffee</h3>
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Drip Coffee</div>
+      <small class="text-muted"> Served Fresh.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$4.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Americano</div>
+      <small class="text-muted"> Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$4.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Mocha</div>
+      <small class="text-muted"> Espresso, Steamed milk, and Chocolate. Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Latte</div>
+      <small class="text-muted"> Plain Latte. Available Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.50</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Lavender Vanilla Latte</div>
+      <small class="text-muted">Latte flavored with lavender and vanilla. Available Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Pumpkin Spice Latte</div>
+      <small class="text-muted">Seasonal latte flavored with pumpkin spice syrups and toppings. Available Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Salted Maple Latte</div>
+      <small class="text-muted">Seasonal latte flavored with a salted maple syrup. Available Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Espresso - Double</div>
+      <small class="text-muted">Standard double portion of espresso. Available Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$4.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Shaken Espresso - Brown Sugar</div>
+      <small class="text-muted">Iced shaken espresso flavored with brown sugar syrup.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+   </ul>
+    
+    <h3>Tea</h3>
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Hot Tea</div>
+      <small class="text-muted"> Cup of hot tea. See ordering site for customization options.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$4.50</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Iced Tea</div>
+      <small class="text-muted"> Cup of iced tea. See ordering site for customization options.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$4.50</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Chai Latte</div>
+      <small class="text-muted"> Chai latte prepared with your choice of milk and syrup. Available Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.50</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Matcha Latte</div>
+      <small class="text-muted"> Plain matcha latte. Available Hot or Iced. </small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.00</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Caramelized Banana Matcha Latte</div>
+      <small class="text-muted"> Matcha latte prepared with caramelized banana syrup. Available Hot or Iced.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$7.50</span>
+  </li>
+   </ul>
+    
+    <h3>Juices and Lemonades</h3>
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Lemonade</div>
+      <small class="text-muted"> Fresh squeezed lemonade.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$4.50</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Strawberry Lemonade</div>
+      <small class="text-muted"> Fresh squeezed lemonade with strawberry syrup flavoring.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.50</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Apple Juice</div>
+      <small class="text-muted"> Fresh apple juice.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$3.50</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Orange Juice</div>
+      <small class="text-muted"> Fresh orange juice.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$3.50</span>
+  </li>
+   </ul>
+    
+    <h3>Other Drinks</h3>
+   <ul class="list-group list-group-flush">
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Hot Chocolate</div>
+      <small class="text-muted"> Hot chocolate made with your choice of milk and optional syrups.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Chocolate Milk</div>
+      <small class="text-muted"> Cold chocolate milk.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$5.00</span>
+  </li>
+     <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">San Pellegrino Sparkling Water</div>
+      <small class="text-muted"> Bottled, refrigerated.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$3.50</span>
+  </li>
+      <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Fiji Water</div>
+      <small class="text-muted"> Bottled, refrigerated.</small>
+    </div>
+    <span class="badge bg-primary rounded-pill">$3.50</span>
+  </li>
+   </ul>
+  </div>
+    
+   
+<!-- Footer -->
+
+    <footer class="bg-dark text-center text-lg-start">
+  <div class="text-center text-light p-3">
+    Lublu Artisan Bakery 2026
+  </div>
+</footer>
+    
+    <!-- Bootstrap JavaScript -->
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+    <script src="./script.js"></script>
+  </body>
+</html>
