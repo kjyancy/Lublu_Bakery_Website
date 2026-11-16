@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+/* HOME PAGE CUSTOM CSS */
+
+  /* Navigation Bar */
+.navbar {
+  background-color: #412c49;
+}
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #9c7da4;
+}
+  /* Hero Section */
+#hero {
+  border: 2px solid #412c49;
+}
+      /* Default: Mobile size */
+.hero-card-text {
+  font-family: "figtree";
+  font-size: 20px;
+  padding:0px;
+  margin:0px;
+}
+.hero-card-title {
+  font-family: "archivo black";
+  font-size: 50px;
+  margin:0px;
+  padding:0px;
+}
+#hero-btn{
+  font-size: 25px;
+}
+#hero-btn{
+  font-family: "figtree";
+  font-size: 15px;
+  background-color: #412c49;
+  margin-top:10px;
+  }
+#hero-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+}
+      /* Desktop screens (768px and wider) */
+@media (min-width: 768px) {
+ .hero-card-text {
+  font-size: 35px;
+   padding:0px;
+   margin:0px;
+}
+.hero-card-title {
+  padding:0px;
+  margin-top:0px;
+  font-size: 100px;
+}
+
+#hero-btn{
+  font-size: 25px;
+}
+#hero-btn{
+  font-family: "figtree";
+  font-size: 20px;
+  background-color: #412c49;
+  margin: 10px;
+  }
+#hero-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+}
+}
+  /*intro section*/
+#introduction {
+  padding: 15px;
+  border: 3px solid #412c49;
+  margin-top:25px;
+  margin-bottom:25px;
+  background-color: #412c49;
+}
+#about-heading {
+  color: white;
+}
+.intro-text {
+  font-family:"figtree";
+  font-size: 20px;
+  color: white;
+  margin:15px;
+  margin-top:25px;
+}
+body {
+  background-color: #e2cee8;
+}
+#second-btn {
+  font-family:"figtree";
+  font-size: 20px;
+}
+#second-btn{
+  outline: 2px solid #e2cee8;
+  color: #e2cee8;
+  margin:10px;
+  background-color: #412c49;
+  }
+#second-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+}
+/*featured items section*/
+.featured {
+  padding: 10px;
+  border: 3px solid #412c49;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.heading {
+  font-family: "archivo black";
+  color: #412c49;
+  font-size:40px;
+  display:flex;
+  justify-content:center;
+  margin: 25px;
+}
+.custom-card-outline {
+  outline: 2px solid #412c49;
+}
+.card-body {
+  background-color: #9c7da4;
+  margin:5px;
+  padding:10px;
+}
+.custom-img-outline {
+  outline: 2px solid #412c49;
+}
+
+.card-title {
+  font-family: "FIGTREE";
+  color: white;
+  margin-top: 20px;
+}
+#menu-btn{
+  font-family: "figtree";
+  font-size: 18px;
+  background-color: #412c49;
+  margin: 20px;
+  }
+#menu-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+  outline: solid 2px #412c49;
+}
+.btn-container{
+  display:flex;
+  justify-content:center;
+}
+/*extra button settings*/
+.btn-custom-outline {
+  --bs-btn-border-color: #412c49;
+  --bs-btn-hover-border-color: #412c49;
+  --bs-btn-focus-shadow-color: #412c49;
+}
+
+footer {
+  background-color: #412c49;
+}
+#top-btn{
+   outline: 2px solid #e2cee8;
+  color: #e2cee8;
+  margin:10px;
+  margin-bottom:15px;
+  }
+#top-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+}
+#footer-text {
+  font-family:"figtree";
+  font-size: 15px;
+  padding: 3px;
+  margin-top:10px;
+}
