@@ -6,7 +6,8 @@
   background-color: #412c49;
 }
 .nav-link {
-  color: #ffffff;
+  font-family:"figtree";
+  color: white;
 }
 
 .nav-link:hover {
