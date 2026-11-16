@@ -10,15 +10,15 @@
       rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body id="top">
+  <body>
     
 <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">  <img src="https://raw.githubusercontent.com/kjyancy/Lublu_Bakery_Website/7b6d4e0c35b2d4a28bc377f7fe563a0fbf4da835/images/lublu%20logo.svg" alt="Lublu Bakery Logo" width="50" height="50"></a>
+        <a class="navbar-brand" href="#">  <img src="https://raw.githubusercontent.com/kjyancy/Lublu_Bakery_Website/5b2fc052fd9222803df62ec7792e22bb1c7a05a9/images/lublu%20logo.svg" class="rounded-circle" alt="Lublu Bakery Logo" width="50" height="50"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -40,63 +40,69 @@
     </nav>
     
 <!-- Hero -->
-
-    <div class="card text-bg-dark">
-  <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/Croissant.jpg?raw=true" class="card-img" alt="Croissant on purple background.">
+<section id="hero">
+    <div class="card text-bg-dark rounded-0">
+  <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/HeroCardImage.jpg?raw=true" class="card-img rounded-0" alt="Croissant on purple background.">
   <div class="card-img-overlay text-end align-content-end">
-    <p class="card-text">Welcome to</p>
-    <h1 class="card-title">Lublu</h1>
-    <p class="card-text">Artisan Bakery</p>
-    <a href="https://www.doordash.com/store/lublu-bakery-visalia-52318921/125216968/?srsltid=AYCX9vLJ8zUqaTKXfwKxEIwTwzgc3pfhWzXzo1zzV_KCQog7gXTek99n" class="btn btn-dark" role="button" target="_blank" rel="noopener noreferrer">Order Now</a>
-  </div>
-</div>
-
+    <p class="hero-card-text">Welcome to</p>
+    <h1 class="hero-card-title">Lublu</h1>
+    <p class="hero-card-text">Artisan Bakery</p>
+    <a href="https://www.doordash.com/store/lublu-bakery-visalia-52318921/125216968/?srsltid=AYCX9vLJ8zUqaTKXfwKxEIwTwzgc3pfhWzXzo1zzV_KCQog7gXTek99n" id="hero-btn" class="btn btn-dark btn-custom-outline rounded-pill" role="button" target="_blank" rel="noopener noreferrer">Order Now</a>
+    </div>
+    </div>
+</section>
 
 <!-- Introduction -->
+   <section id="introduction">
+     <h2 id="about-heading" class="heading">About Us</h2>
+    <p class="intro-text">Lublu is a small artisan bakery located in downtown Visalia, California that sells delicious pastries, sourdough, and other baked goods. With a name coming from the Ukrainian word meaning “I love”, our bakery places emphasis on community and quality goods.</p>
+  <div class="btn-container">
+    <a href="about.html" id="second-btn" class="btn btn-primary btn-custom-outline rounded-pill" role="button" target="_blank" rel="noopener noreferrer">Learn More About Lublu</a>
+  </div>
+   </section>
     
-    <p>Lublu is a small artisan bakery located in downtown Visalia, California that sells delicious pastries, sourdough, and other baked goods. With a name coming from the Ukrainian word meaning “I love”, our bakery places emphasis on community and quality goods.</p>
- <a href="about.html" class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer">Learn More About Lublu</a>    
 <!-- Featured Items -->
-    
-<h2>Featured Items</h2>
-
-  
+   <section class="featured">
+<h2 class="heading">Featured Items</h2>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <div class="card-body">
-        <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/Danishes.jpg?raw=true" class="card-img-top" alt="Danish pastries topped with mixed berries">
-        <h5 class="card-title">Danish Pastries</h5>
+      <div class="card-body custom-card-outline rounded-1">
+        <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/Danishes.jpg?raw=true" class="card-img-top custom-img-outline" alt="Danish pastries topped with mixed berries">
+        <h5 class="card-title text-center">Danish Pastries</h5>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/Macarons.jpg?raw=true" class="card-img-top" alt="Assorted colorful macarons">
-      <div class="card-body">
-        <h5 class="card-title">Macarons</h5>
+      <div class="card-body custom-card-outline rounded-1">
+         <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/Macarons.jpg?raw=true" class="card-img-top custom-img-outline" alt="Assorted colorful macarons">
+        <h5 class="card-title text-center">Macarons</h5>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/Sourdough.jpg?raw=true" class="card-img-top" alt="Sourdough loaves displayed on a rack">
-      <div class="card-body">
-        <h5 class="card-title">Sourdough Loaves</h5>
+      <div class="card-body custom-card-outline rounded-1">
+         <img src="https://github.com/kjyancy/Lublu_Bakery_Website/blob/main/images/Sourdough.jpg?raw=true" class="card-img-top custom-img-outline" alt="Sourdough loaves displayed on a rack">
+        <h5 class="card-title text-center">Sourdough Loaves</h5>
       </div>
     </div>
   </div>
 </div>
-<a href="menu.html" class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer">View Our Menu</a>
+    <div class="btn-container">
+<a href="menu.html" id="menu-btn" class="btn btn-primary btn-custom-outline rounded-pill" role="button" target="_blank" rel="noopener noreferrer">View Our Menu</a>
+    </div>
+   </section>
     
 <!-- Footer -->
 
-    <footer class="bg-dark text-center text-lg-start">
-  <div class="text-center text-light p-3">
+    <footer class="text-center text-lg-start">
+  <div id="footer-text" class="text-center text-light p-3">
     Lublu Artisan Bakery 2026
   </div>
-        <a id="top-button" href="#top">Back to Top</a>
+      <a id="top-btn" href="#top" class="btn btn-custom-outline rounded-pill" role="button" target="_blank" rel="noopener noreferrer">Back to Top</a>
 </footer>
     
     <!-- Bootstrap JavaScript -->
