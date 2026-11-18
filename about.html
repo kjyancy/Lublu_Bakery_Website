@@ -9,16 +9,16 @@
       rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body id="top">
+  <body>
 
     <!-- Navbar -->
     
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">  <img src="https://raw.githubusercontent.com/kjyancy/Lublu_Bakery_Website/7b6d4e0c35b2d4a28bc377f7fe563a0fbf4da835/images/lublu%20logo.svg" alt="Lublu Bakery Logo" width="50" height="50"></a>
+        <a class="navbar-brand" href="#">  <img src="https://raw.githubusercontent.com/kjyancy/Lublu_Bakery_Website/7b6d4e0c35b2d4a28bc377f7fe563a0fbf4da835/images/lublu%20logo.svg" alt="Lublu Bakery Logo" class="rounded-circle" width="50" height="50"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -39,23 +39,29 @@
       </div>
     </nav>
 
-<h1>About Lublu</h1>
-    <h2>Who We Are</h2>
-    <p>"Lublu is a small bakery and coffee shop in downtown Visalia. We make everything from scratch in our kitchen, with a big focus on croissants, danishes, sourdough bread, cookies, macarons, and other pastries. Our menu changes pretty often with the seasons, and we’re always working on something new. You’ll usually find a mix of classics along with new flavors and pastries we’re experimenting with. We also serve espresso drinks, matcha, and seasonal drinks, with a lot of our syrups and fillings made in-house. Lublu means “I love” in Ukrainian, and that’s really where the name came from. We wanted to create a bakery where we could make things we love and share them with our community."</p>
-    <h2>Our Bakery</h2>
-    <p>Be sure to visit our bakery during your walk down Main Street. We offer a cozy space for gathering that is dog-friendly, has plenty of indoor seating, and displays a variety of products from multiple local vendors.</p>
+<h1 class="page-header">About Lublu</h1>
+    <h2 class="about-h2">Who We Are</h2>
+    <p class="about-info">"Lublu is a small bakery and coffee shop in downtown Visalia. We make everything from scratch in our kitchen, with a big focus on croissants, danishes, sourdough bread, cookies, macarons, and other pastries. Our menu changes pretty often with the seasons, and we’re always working on something new. You’ll usually find a mix of classics along with new flavors and pastries we’re experimenting with. We also serve espresso drinks, matcha, and seasonal drinks, with a lot of our syrups and fillings made in-house. Lublu means “I love” in Ukrainian, and that’s really where the name came from. We wanted to create a bakery where we could make things we love and share them with our community."</p>
+    <h2 class="about-h2"'>Our Bakery</h2>
+    <p class="about-info">Be sure to visit our bakery during your walk down Main Street. We offer a cozy space for gathering that is dog-friendly, has plenty of indoor seating, and displays a variety of products from multiple local vendors.</p>
 
-    <a href="contact.html" class="btn btn-primary" role="button" target="_blank" rel="noopener noreferrer">Where To Find Us</a>
+    <section class="btn-container">
+    <a href="contact.html" id="location-btn" class="btn btn-custom-outline rounded-pill" role="button" target="_blank" rel="noopener noreferrer">Where To Find Us</a>
+    </section>
+    <section class="bakery-img">
+    <img src="https://raw.githubusercontent.com/kjyancy/Lublu_Bakery_Website/09da787399b2991dfb2da0261782e615b159566f/images/LubluOwnerPicture.jpg" class="image" alt="Lublu's owner standing outside of the bakery doors." width=300>
+    </section>
 
-    <img src="https://raw.githubusercontent.com/kjyancy/Lublu_Bakery_Website/09da787399b2991dfb2da0261782e615b159566f/images/LubluOwnerPicture.jpg" alt="Lublu's owner standing outside of the bakery doors." width=300>
     
    <!-- Footer -->
 
-    <footer class="bg-dark text-center text-lg-start">
-  <div class="text-center text-light p-3">
+   <footer class="text-center text-lg-start">
+  <div id="footer-text" class="text-center text-light p-3">
     Lublu Artisan Bakery 2026
   </div>
-        <a id="top-button" href="#top">Back to Top</a>
+      <div class="btn-container">
+      <a id="top-btn" href="#top" class="btn btn-custom-outline rounded-pill" role="button" target="_blank" rel="noopener noreferrer">Back to Top</a>
+      </div>
 </footer>
     
     <!-- Bootstrap JavaScript -->
@@ -65,3 +71,4 @@
     <script src="./script.js"></script>
   </body>
 </html>
+
