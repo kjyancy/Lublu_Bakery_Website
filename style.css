@@ -14,11 +14,11 @@
 .nav-link:hover {
   color: #9c7da4;
 }
-  /* Hero Section */
+/* Hero Section */
 #hero {
   border: 2px solid #412c49;
 }
-      /* Default: Mobile size */
+/* Default: Mobile size */
 .hero-card-text {
   font-family: "figtree";
   font-size: 20px;
@@ -32,11 +32,8 @@
   padding:0px;
 }
 #hero-btn{
-  font-size: 25px;
-}
-#hero-btn{
   font-family: "figtree";
-  font-size: 15px;
+  font-size: 25px;
   background-color: #412c49;
   margin-top:10px;
   }
@@ -45,7 +42,8 @@
   color: #412c49;
   font-weight:bold;
 }
-      /* Desktop screens (768px and wider) */
+
+/* Desktop screens (768px and wider) */
 @media (min-width: 768px) {
  .hero-card-text {
   font-size: 35px;
@@ -106,6 +104,7 @@ body {
   color: #412c49;
   font-weight:bold;
 }
+
 /*featured items section*/
 .featured {
   padding: 10px;
@@ -154,6 +153,7 @@ body {
   display:flex;
   justify-content:center;
 }
+
 /*extra button settings*/
 .btn-custom-outline {
   --bs-btn-border-color: #412c49;
@@ -161,6 +161,7 @@ body {
   --bs-btn-focus-shadow-color: #412c49;
 }
 
+/* footer */
 footer {
   background-color: #412c49;
 }
@@ -204,6 +205,7 @@ footer {
   font-weight:500;
 }
 
+/*main page*/
 .page-header{
   color: #412c49;
   font-size:40px;
@@ -212,7 +214,6 @@ footer {
   justify-content:center;
   margin:25px;
 }
-/* main page*/
 h2 {
   font-family: "archivo black";
   color: #412c49;
@@ -244,6 +245,7 @@ h3 {
   color: #412c49;
   font-weight:bold;
 }
+
 /*food sections*/
 .badge {
   background-color: #412c49;
@@ -260,4 +262,37 @@ h3 {
   font-family:"figtree";
   color: #9c7da4;
   font-size:15px;
+}
+
+/* ABOUT PAGE CUSTOM CSS*/
+
+.about-h2 {
+  color: #9c7da4;
+}
+.about-info {
+  font-family: "figtree";
+  color: #412c49;
+  margin:20px;
+}
+#location-btn{
+  font-family: "figtree";
+  font-size: 18px;
+  color: white;
+  background-color: #412c49;
+  margin: 20px;
+  }
+#location-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+  outline: solid 2px #412c49;
+}
+.bakery-img {
+  display:grid;
+  place-items:center;
+  margin-top:15px;
+  margin-bottom:40px;
+}
+.image {
+  outline: 2px solid white;
 }
