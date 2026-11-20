@@ -205,6 +205,11 @@ footer {
   font-weight:500;
 }
 
+.dropdown-item:active {
+  background-color: #412c49;
+  color:white;
+}
+
 /*main page*/
 .page-header{
   color: #412c49;
