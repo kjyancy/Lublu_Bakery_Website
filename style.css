@@ -115,7 +115,7 @@ body {
 .heading {
   font-family: "archivo black";
   color: #412c49;
-  font-size:40px;
+  font-size:50px;
   display:flex;
   justify-content:center;
   margin: 25px;
@@ -208,7 +208,7 @@ footer {
 /*main page*/
 .page-header{
   color: #412c49;
-  font-size:40px;
+  font-size:50px;
   font-family: "archivo black";
   display:flex;
   justify-content:center;
@@ -290,6 +290,95 @@ h3 {
 .bakery-img {
   display:grid;
   place-items:center;
+  margin-top:15px;
+  margin-bottom:40px;
+}
+.image {
+  outline: 2px solid white;
+}
+
+/*CONTACT PAGE CUSTOM CSS*/
+
+.contact-h2 {
+  font-size:35px;
+  color: #9c7da4;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 35px;
+  gap:20px;
+}
+.contact-details-h3 {
+  color: white;
+  font-size: 25px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.contact-info {
+  font-family:"figtree";
+  color: #412c49;
+  margin: 15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.contact-h2::before,
+.contact-h2::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #412c49;
+}
+.socials {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+}
+#facebook-btn {
+  font-family: "figtree";
+  font-size: 18px;
+  color: white;
+  background-color: #412c49;
+  margin: 20px;
+  }
+#facebook-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+  outline: solid 2px #412c49;
+}
+#instagram-btn {
+  font-family: "figtree";
+  font-size: 18px;
+  color: white;
+  background-color: #412c49;
+  margin: 20px;
+  }
+#instagram-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+  outline: solid 2px #412c49;
+}
+#tiktok-btn {
+  font-family: "figtree";
+  font-size: 18px;
+  color: white;
+  background-color: #412c49;
+  margin: 20px;
+  }
+#tiktok-btn:hover {
+  background-color: #e2cee8;
+  color: #412c49;
+  font-weight:bold;
+  outline: solid 2px #412c49;
+}
+.map-img {
+  display:flex;
+  justify-content:center;
+  align-items:center;
   margin-top:15px;
   margin-bottom:40px;
 }
